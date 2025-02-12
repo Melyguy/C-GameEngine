@@ -1,4 +1,5 @@
-﻿using System;
+﻿using C__GameEngine;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,6 +12,7 @@ namespace C_Sharp_GameEngine
     {
         static void Main(string[] args)
         {
+            DemoGame game = new DemoGame();
         }
     }
 }
